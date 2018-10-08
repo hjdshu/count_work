@@ -1,0 +1,13 @@
+{
+  "extends": ["taro"],
+  "rules": {
+    "no-multi-spaces": 1,
+    "generator-star-spacing": 0,
+    "no-unused-vars": ["error", { "varsIgnorePattern": "Taro" }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }]
+  },
+  "parser": "babel-eslint",
+  "globals": {
+    "wx": true
+  }
+}
